@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Find the IATA symbol of an airline</h1>
+<p>Input an airline name:</p>
+<form action="/iata" method="post">
+    <input name="airline" placeholder="airline" type="text"/>
+    <input type="submit" value="Submit"/>
+<h3>Results</h3>
+<ul>
+    {% for airline in results %}
+    <li>{{ airline }}</li>
+    {% endfor %}
+</ul>
+</form>
+{% endblock %}
