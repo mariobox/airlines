@@ -6,7 +6,7 @@ Type the name or part of the name of an airline in the form, and get a list or a
 
 And when you click "Submit" the result will be a list of all the airlines that have "american" in their name, followed by their IATA symbol in parentheses:
 
-<imb src="https://mariobox.github.io/airlines/iata-results.jpg">
+<img src="https://mariobox.github.io/airlines/iata-results.jpg">
 
 The program is made in Python, with the aid of Flask and Jinja to display it on a web page.
 
